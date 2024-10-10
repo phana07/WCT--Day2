@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Shop - Sign Up</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">styles
+                <img src="logo.png" alt="Car Shop Logo">
+                <span>Car Shop</span>
+            </div>
+            <ul>
+                <li><a href="#">Review</a></li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Car</a></li>
+            </ul>
+            <div class="icons">
+                <a href="#"><img src="search-icon.png" alt="Search"></a>
+                <a href="#"><img src="language-icon.png" alt="Language"></a>
+            </div>
+        </nav>
+    </header>
+    
+    <main>
+        <div class="signup-box">
+            <h2>Sign up</h2>
+            <form>
+                <div class="input-field">
+                    <input type="text" placeholder="First name" required>
+                    <input type="text" placeholder="Last name" required>
+                </div>
+                <div class="input-field">
+                    <input type="email" placeholder="Mobile number or email" required>
+                </div>
+                <div class="input-field">
+                    <input type="password" placeholder="New Password" required>
+                    <span class="show-password">&#128065;</span>
+                </div>
+                <div class="input-field">
+                    <input type="password" placeholder="Confirm password" required>
+                    <span class="show-password">&#128065;</span>
+                </div>
+                <div class="input-field">
+                    <select name="months">
+                        <option value="" disabled selected>Months</option>
+                        <option value="January">January</option>
+                        <option value="February">February</option>
+                        <!-- Add more months -->
+                    </select>
+                    <select name="day">
+                        <option value="" disabled selected>Day</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <!-- Add more days -->
+                    </select>
+                    <select name="year">
+                        <option value="" disabled selected>Year</option>
+                        <option value="2000">2000</option>
+                        <option value="1999">1999</option>
+                        <!-- Add more years -->
+                    </select>
+                    <select name="gender">
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                    </select>
+                </div>
+                <div class="checkbox-field">
+                    <input type="checkbox" id="remember-me">
+                    <label for="remember-me">Remember me</label>
+                </div>
+                <div class="login-link">
+                    <p>Already have an account? <a href="#">Login</a></p>
+                </div>
+                <button type="submit">Next</button>
+            </form>
+        </div>
+    </main>
+</body>
+</html>
